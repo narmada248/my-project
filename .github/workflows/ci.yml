@@ -35,7 +35,7 @@ jobs:
         image: narmadanarmi/github-actions
         registry: docker.io
         username: ${{secrets.DOCKER_USERNAME}}
-        password: ${{secrets.DOCKER_ACCESS_TOKEN}}
+        password: ${{secrets.DOCKER_PASSWORD}}
  
     
 
